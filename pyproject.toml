@@ -9,7 +9,7 @@ build-backend = "setuptools.build_meta"
 requires = ["setuptools>=80", "wheel"]
 
 [project]
-authors = [{name = "Denise Case"}] # TODO: Change to YOUR name (ownership matters)
+authors = [{name = "Joanna Farris"}] # TODO: Change to YOUR name (ownership matters)
 classifiers = [
   "Programming Language :: Python :: 3 :: Only",
   "Programming Language :: Python :: 3.12",
@@ -40,6 +40,7 @@ Repository = "https://github.com/denisecase/applied-ml-template"
 
 [project.optional-dependencies]
 dev = [
+  "pre-commit",
   "pytest", # run some tests automatically only needed for code files
   "pytest-cov", # coverage report for more visibility only needed for code files
 ]
