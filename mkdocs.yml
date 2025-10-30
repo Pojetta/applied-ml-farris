@@ -63,6 +63,7 @@ markdown_extensions:
   - pymdownx.superfences # Code blocks with syntax highlighting
   - pymdownx.details # Collapsible sections
 
+
 nav:
   - Home: index.md
   - Project 01:

@@ -36,32 +36,22 @@ Display basic information about the dataset using the info() method.
 
 
 ```python
-print(titanic.head(10))
+print(titanic.head(5))
 ```
 
-       survived  pclass     sex   age  sibsp  parch     fare embarked   class  \
-    0         0       3    male  22.0      1      0   7.2500        S   Third   
-    1         1       1  female  38.0      1      0  71.2833        C   First   
-    2         1       3  female  26.0      0      0   7.9250        S   Third   
-    3         1       1  female  35.0      1      0  53.1000        S   First   
-    4         0       3    male  35.0      0      0   8.0500        S   Third   
-    5         0       3    male   NaN      0      0   8.4583        Q   Third   
-    6         0       1    male  54.0      0      0  51.8625        S   First   
-    7         0       3    male   2.0      3      1  21.0750        S   Third   
-    8         1       3  female  27.0      0      2  11.1333        S   Third   
-    9         1       2  female  14.0      1      0  30.0708        C  Second   
+       survived  pclass  sex   age  sibsp  parch     fare  embarked  class    who  \
+    0         0       3    0  22.0      1      0   7.2500       2.0  Third    man   
+    1         1       1    1  38.0      1      0  71.2833       0.0  First  woman   
+    2         1       3    1  26.0      0      0   7.9250       2.0  Third  woman   
+    3         1       1    1  35.0      1      0  53.1000       2.0  First  woman   
+    4         0       3    0  35.0      0      0   8.0500       2.0  Third    man   
     
-         who  adult_male deck  embark_town alive  alone  
-    0    man        True  NaN  Southampton    no  False  
-    1  woman       False    C    Cherbourg   yes  False  
-    2  woman       False  NaN  Southampton   yes   True  
-    3  woman       False    C  Southampton   yes  False  
-    4    man        True  NaN  Southampton    no   True  
-    5    man        True  NaN   Queenstown    no   True  
-    6    man        True    E  Southampton    no   True  
-    7  child       False  NaN  Southampton    no  False  
-    8  woman       False  NaN  Southampton   yes  False  
-    9  child       False  NaN    Cherbourg   yes  False  
+       adult_male deck  embark_town alive  alone  family_size  
+    0        True  NaN  Southampton    no  False            2  
+    1       False    C    Cherbourg   yes  False            2  
+    2       False  NaN  Southampton   yes   True            1  
+    3       False    C  Southampton   yes  False            2  
+    4        True  NaN  Southampton    no   True            1  
 
 
 Check for missing values using the isnull() method and then the sum() method.
@@ -155,20 +145,15 @@ corr_pairs = corr_pairs[corr_pairs < 1]
 strongest = corr_pairs.drop_duplicates().abs().sort_values(ascending=False)
 
 
-print(strongest.head(10))
+print(strongest.head(5))
 
 ```
 
-    sibsp       alone         0.584471
-    parch       alone         0.583398
-    survived    adult_male    0.557080
-    pclass      fare          0.549500
-    sibsp       parch         0.414838
-    adult_male  alone         0.404744
-    pclass      age           0.369226
-    parch       adult_male    0.349943
-    survived    pclass        0.338481
-    age         sibsp         0.308247
+    sex    adult_male     0.908578
+    sibsp  family_size    0.890712
+    parch  family_size    0.783111
+    alone  family_size    0.690922
+    sibsp  alone          0.584471
     dtype: float64
 
 
