@@ -51,6 +51,7 @@ plugins:
             docstring_style: google # Professional docstring format
             show_signature_annotations: true
             separate_signature: true    # Makes function signatures easier to read
+  - mkdocs-jupyter
 
 markdown_extensions:
   - admonition # Note/Warning/Tip boxes

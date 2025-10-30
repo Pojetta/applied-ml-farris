@@ -45,6 +45,7 @@ docs = [
   "mkdocs-material",       # Theme
   "mkdocstrings[python]",  # API docs
   "pymdown-extensions",    # OPTIONAL: avoids Material ext issues in CI
+  "mkdocs-jupyter",
   "livereload",
   "watchdog",
   "ruff",                  # For mkdocstrings signature formatting
