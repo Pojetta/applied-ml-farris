@@ -28,6 +28,7 @@ docs = [
     { name = "mkdocs" },
     { name = "mkdocs-material" },
     { name = "mkdocstrings", extra = ["python"] },
+    { name = "pymdown-extensions" },
     { name = "ruff" },
     { name = "watchdog" },
 ]
@@ -45,6 +46,7 @@ requires-dist = [
     { name = "numpy" },
     { name = "pandas" },
     { name = "pre-commit", marker = "extra == 'dev'" },
+    { name = "pymdown-extensions", marker = "extra == 'docs'" },
     { name = "pytest", marker = "extra == 'dev'" },
     { name = "pytest-cov", marker = "extra == 'dev'" },
     { name = "ruff", marker = "extra == 'docs'" },
