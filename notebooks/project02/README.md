@@ -3,7 +3,9 @@
 **Date:** October 29, 2025
 
 ---
+You can view the full Jupyter notebook for this project [here](https://github.com/Pojetta/applied-ml-farris/blob/main/notebooks/project02/ml02_farris.ipynb).
 
+---
 ## Overview  
 This project applies exploratory data analysis and preprocessing techniques to the classic **Titanic dataset**, focusing on identifying the factors most strongly associated with passenger survival. The notebook demonstrates a complete workflow from inspection and cleaning to feature engineering and data splitting.  
 

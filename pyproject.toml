@@ -26,6 +26,8 @@ dependencies = [ # fmt: off
   "ipython",
   "ipykernel",
   "scikit-learn",
+  "nbconvert>=7.16.6",
+  "mkdocs-jupyter>=0.25.1",
 ]  # fmt: on
 
 [project.urls]
