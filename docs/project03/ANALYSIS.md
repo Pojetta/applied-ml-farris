@@ -1,4 +1,4 @@
-# **Titanic Data Exploration and Preparation**
+# **Titanic Classification Project**
 **Author:** Joanna Farris  
 **Date:** November 8, 2025  
 **Objective:** Predict a Categorical Target and Evaluate Performance
