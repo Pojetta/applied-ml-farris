@@ -95,4 +95,3 @@ The project closes with a summary table comparing all models and a reflection on
 
 ## Notes
 This project intentionally uses simple feature sets to highlight how model performance changes with different inputs. More complex feature engineering (e.g., using sex, passenger class, fare) would likely improve performance across all models.
-
