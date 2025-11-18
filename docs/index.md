@@ -12,3 +12,4 @@ Projects index:
 - [**Project 01: California Housing Price Prediction**](project01/README.md)  
 - [**Project 02: Titanic Survival Analysis**](project02/README.md)  
 - [**Project 03: Titanic Classification Project**](project03/README.md)
+- [**Project 04: Titanic Regression Model Comparison**](project04/README.md)
