@@ -13,3 +13,4 @@ Projects index:
 - [**Project 02: Titanic Survival Analysis**](project02/README.md)  
 - [**Project 03: Titanic Classification Project**](project03/README.md)
 - [**Project 04: Titanic Regression Model Comparison**](project04/README.md)
+- [**Project 05: Wine Quality Ensemble Model Comparison Project**](project05/README.md)
